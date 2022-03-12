@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+.card {
+  margin: 15px;
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+  color: #080808;
+  /* display: block; */
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+#logo {
+  margin-left: 90px;
+}
+
+.container {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+@media (min-width: 400px) and (max-width: 991px) {
+  #root .card {
+    width: calc(95% / 2);
+  }
+  #logo {
+    margin-left: 60%;
+  }
+}
